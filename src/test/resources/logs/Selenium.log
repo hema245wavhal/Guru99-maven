@@ -1,0 +1,19 @@
+20:06:02,343 DEBUG Guru99:44 - Launching Chrome Browser
+20:06:10,801 DEBUG Guru99:36 - login successfully
+20:06:22,465 DEBUG Guru99:44 - Launching Chrome Browser
+20:06:40,668 DEBUG Guru99:44 - Launching Chrome Browser
+20:06:49,228 DEBUG Guru99:38 - Add customer details and Click submit btn
+20:06:55,754 DEBUG Guru99:44 - Launching Chrome Browser
+20:07:03,102 DEBUG Guru99:37 - delete customer clicked
+20:07:03,236 DEBUG Guru99:40 - click submit btn
+20:07:03,409 DEBUG Guru99:44 - Successfully handled Alert
+20:07:04,599 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+20:07:04,601 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+20:07:04,604 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+20:07:04,606 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+20:07:04,606 DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/p_wav/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+20:07:05,000 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+20:07:05,000 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+20:07:05,001 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+20:07:05,002 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+20:07:05,002 DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/p_wav/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"

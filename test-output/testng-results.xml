@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="3" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-12-15T20:05:53 EST" name="Suite" finished-at="2019-12-15T20:07:04 EST" duration-ms="70889">
+    <groups>
+    </groups>
+    <test started-at="2019-12-15T20:05:53 EST" name="Test" finished-at="2019-12-15T20:07:04 EST" duration-ms="70889">
+      <class name="testcases.ValidateDeleteCustomer">
+        <test-method signature="Enterdcustid()[pri:0, instance:testcases.ValidateDeleteCustomer@5876a9af]" started-at="2019-12-15T20:06:50 EST" name="Enterdcustid" finished-at="2019-12-15T20:07:03 EST" duration-ms="12860" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Enterdcustid -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.ValidateDeleteCustomer@5876a9af]" started-at="2019-12-15T20:07:03 EST" name="tearDown" finished-at="2019-12-15T20:07:04 EST" duration-ms="732" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.ValidateDeleteCustomer -->
+      <class name="testcases.LoginT">
+        <test-method signature="Login(java.lang.String, java.lang.String)[pri:0, instance:testcases.LoginT@1aa7ecca]" started-at="2019-12-15T20:05:54 EST" name="Login" data-provider="credentials" finished-at="2019-12-15T20:06:10 EST" duration-ms="16337" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mngr236025]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[EquhAhA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method is-config="true" signature="tearDownMethod()[pri:0, instance:testcases.LoginT@1aa7ecca]" started-at="2019-12-15T20:06:10 EST" name="tearDownMethod" finished-at="2019-12-15T20:06:17 EST" duration-ms="6237" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method signature="Login(java.lang.String, java.lang.String)[pri:0, instance:testcases.LoginT@1aa7ecca]" started-at="2019-12-15T20:06:17 EST" name="Login" data-provider="credentials" finished-at="2019-12-15T20:06:28 EST" duration-ms="11409" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Hema]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[EquhAhA]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.UnhandledAlertException">
+            <message>
+              <![CDATA[unexpected alert open: {Alert text : User or Password is not valid}
+  (Session info: chrome=79.0.3945.79): User or Password is not valid
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MYCOMPUTER', ip: '192.168.2.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.79, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: C:\Users\p_wav\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56539}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 80860547885d313b86450d4bcd53d3d5
+*** Element info: {Using=xpath, value=//table[@align='center']/tbody/tr[2]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : User or Password is not valid}
+  (Session info: chrome=79.0.3945.79): User or Password is not valid
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MYCOMPUTER', ip: '192.168.2.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.79, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: C:\Users\p_wav\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56539}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 80860547885d313b86450d4bcd53d3d5
+*** Element info: {Using=xpath, value=//table[@align='center']/tbody/tr[2]}
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy13.getText(Unknown Source)
+at testcases.LoginT.Login(LoginT.java:34)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.UnhandledAlertException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method is-config="true" signature="tearDownMethod()[pri:0, instance:testcases.LoginT@1aa7ecca]" started-at="2019-12-15T20:06:29 EST" name="tearDownMethod" finished-at="2019-12-15T20:06:35 EST" duration-ms="5795" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+      </class> <!-- testcases.LoginT -->
+      <class name="testcases.AddNewCustomer">
+        <test-method signature="Enterdcustdetails()[pri:0, instance:testcases.AddNewCustomer@59309333]" started-at="2019-12-15T20:06:35 EST" name="Enterdcustdetails" finished-at="2019-12-15T20:06:49 EST" duration-ms="13952" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Enterdcustdetails -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.AddNewCustomer@59309333]" started-at="2019-12-15T20:06:49 EST" name="tearDown" finished-at="2019-12-15T20:06:50 EST" duration-ms="1135" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.AddNewCustomer -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
